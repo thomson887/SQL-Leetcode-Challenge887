@@ -40,7 +40,7 @@ WITH t1 AS (
             
 SELECT t1.id, 
        t1.visit_date,
-       t1people
+       t1.people
 FROM t1
 LEFT JOIN (
             SELECT dates, 
